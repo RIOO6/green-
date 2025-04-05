@@ -1,6 +1,6 @@
 /* Main Content */
 main {
-    background-image: url(C:\Users\USER\OneDrive\Pictures\dd.jpg); /* Replace with the actual path to your image */
+    background-image: url(file:///C:/Users/USER/OneDrive/%D8%A7%D9%84%D8%B5%D9%88%D8%B1/dd.png); /* Replace with the actual path to your image */
     background-size: cover;
     background-position: center;
     color: #333333;
