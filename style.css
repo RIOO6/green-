@@ -1,4 +1,5 @@
 /* General Reset */
+/* Reset Styles */
 * {
     margin: 0;
     padding: 0;
@@ -73,7 +74,7 @@ main p {
 /* Footer Styling */
 footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 10px;
     background: #27ae60;
     color: #ffffff;
