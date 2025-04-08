@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #131313;
+    color: #333;
 }
 
 header {
@@ -29,16 +29,9 @@ header h1, header nav {
     position: relative;
     z-index: 2;
 }
-/* sticky nav: Ensures the navigation bar remains visible at the top of the viewport while scrolling */
+
 nav {
-    position: sticky;
-    top: 0;
-    background: rgba(0, 100, 0, 0.9);
-    z-index: 10;
-}
-
-
-{
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
