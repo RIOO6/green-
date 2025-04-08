@@ -29,17 +29,16 @@ header h1, header nav {
     position: relative;
     z-index: 2;
 }
-/* sticky nav */
+/* sticky nav: Ensures the navigation bar remains visible at the top of the viewport while scrolling */
 nav {
     position: sticky;
     top: 0;
-    background: rgba(0, 128, 0, 0.9);
-    z-index: 1000;
+    background: rgba(0, 100, 0, 0.9);
+    z-index: 10;
 }
 
 
-nav {
-    display: flex;
+{
     justify-content: center;
     align-items: center;
     gap: 20px;
