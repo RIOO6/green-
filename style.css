@@ -29,6 +29,14 @@ header h1, header nav {
     position: relative;
     z-index: 2;
 }
+/* sticky nav */
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 128, 0, 0.9);
+    z-index: 1000;
+}
+
 
 nav {
     display: flex;
