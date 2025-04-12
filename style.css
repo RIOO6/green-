@@ -80,7 +80,7 @@ section h2 {
     color: #4CAF50;
 }
 
-..achievements {
+.achievements {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -101,12 +101,11 @@ section h2 {
     flex-direction: column;
     justify-content: flex-end;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
-    filter: blur(2px); /* Initial blur effect */
     transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .achievement-card:hover {
-    filter: blur(0); /* Remove blur on hover */
+    filter: blur(2px); /* Apply blur on hover */
     transform: scale(1.05); /* Slightly enlarge the card on hover */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow on hover */
 }
