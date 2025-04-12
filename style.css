@@ -88,7 +88,9 @@ section h2 {
 }
 
 .achievement-card {
-    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     padding: 20px;
     width: 300px;
@@ -99,18 +101,16 @@ section h2 {
     flex-direction: column;
     justify-content: flex-end;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    filter: blur(2px); /* Initial blur effect */
     transition: filter 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .achievement-card:hover {
-    filter: blur(2px); /* Apply blur only to the background on hover */
+    filter: blur(0); /* Remove blur on hover */
     transform: scale(1.05); /* Slightly enlarge the card on hover */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow on hover */
 }
+
 footer {
     background: #333;
     color: white;
