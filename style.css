@@ -110,6 +110,12 @@ section h2 {
     transform: scale(1.05); /* Slightly enlarge the card on hover */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow on hover */
 }
+.achievements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
 footer {
     background: #333;
