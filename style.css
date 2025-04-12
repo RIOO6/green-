@@ -107,7 +107,7 @@ section h2 {
 }
 
 .achievement-card:hover {
-    filter: blur(2px);
+    filter: brightness(1.2);
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
