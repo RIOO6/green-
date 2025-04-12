@@ -80,13 +80,6 @@ section h2 {
     color: #4CAF50;
 }
 
-.achievements {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
 .achievement-card {
     position: relative; /* Required for positioning the pseudo-element */
     color: white;
