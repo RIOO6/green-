@@ -107,9 +107,10 @@ section h2 {
 }
 
 .achievement-card:hover {
-    filter: brightness(1.2);
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    filter: brightness(1.2); /* Brighten the card on hover */
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Add a more prominent shadow */
+    transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for all effects */
 }
 
 footer {
