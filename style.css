@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,11 +8,10 @@ body {
 }
 
 header {
-    background: #4CAF50; /* Simple green background */
+    background: #4CAF50;
     color: white;
     padding: 30px 0;
     text-align: center;
-    position: relative;
 }
 
 header h1 {
@@ -33,17 +33,10 @@ nav {
     background: rgba(0, 0, 0, 0.8);
     padding: 10px 0;
     z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-nav img {
-    height: 50px;
-    width: auto;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -59,33 +52,12 @@ nav ul li a {
     font-weight: bold;
 }
 
-.hero {
-    padding: 100px 20px;
-    text-align: center;
-    color: white;
-}
-
-section {
-    padding: 40px 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    text-align: center;
-    background: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-section h2 {
-    margin-bottom: 20px;
-    color: #4CAF50;
-}
-
+/* Achievements Section */
 .achievements {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
 }
 
 .achievement-card {
@@ -102,35 +74,51 @@ section h2 {
     flex-direction: column;
     justify-content: flex-end;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
-    transition: filter 0.3s ease, transform 0.3s ease;
-    overflow: hidden;
-    position: relative; /* Required for text background */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.achievement-card::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    z-index: 1; /* Place it behind the text */
-    border-radius: 0 0 10px 10px; /* Match card's border radius */
-}
-
-.achievement-card h3,
-.achievement-card p {
-    position: relative; /* Ensure text is above the background */
-    z-index: 2;
-    margin: 0;
-}
 .achievement-card:hover {
-    filter: brightness(1.2); /* Brighten the card on hover */
-    transform: scale(1.05); /* Slightly enlarge the card */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Add a more prominent shadow */
-    transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for all effects */
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+/* Events Section */
+.events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+}
+
+.event-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sponsors Section */
 #sponsors {
     padding: 40px 20px;
     margin: 40px auto;
@@ -141,22 +129,9 @@ section h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#sponsors h2 {
-    margin-bottom: 20px;
-    color: #4CAF50;
-    font-size: 1.8rem;
-}
-
-.sponsors {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
 .sponsors img {
     width: 100%;
-    max-width: 600px; /* Limit the image size */
+    max-width: 600px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -164,18 +139,11 @@ section h2 {
 }
 
 .sponsors img:hover {
-    transform: scale(1.05); /* Slightly enlarge the image on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow */
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 40px;
-}
-
+/* Footer */
 footer {
     background: #333;
     color: white;
