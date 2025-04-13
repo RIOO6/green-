@@ -131,6 +131,42 @@ section h2 {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Add a more prominent shadow */
     transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for all effects */
 }
+#sponsors {
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sponsors h2 {
+    margin-bottom: 20px;
+    color: #4CAF50;
+    font-size: 1.8rem;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sponsors img {
+    width: 100%;
+    max-width: 600px; /* Limit the image size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sponsors img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow */
+}
 
 footer {
     background: #333;
