@@ -113,7 +113,7 @@ section h2 {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 70%;
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
     z-index: 1; /* Place it behind the text */
     border-radius: 0 0 10px 10px; /* Match card's border radius */
@@ -126,7 +126,7 @@ section h2 {
     margin: 0;
 }
 .achievement-card:hover {
-    filter: brightness(1.2); /* Brighten the card on hover */
+    filter: brightness(1.01); /* Brighten the card on hover */
     transform: scale(1.05); /* Slightly enlarge the card */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Add a more prominent shadow */
     transition: filter 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for all effects */
