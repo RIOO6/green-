@@ -156,7 +156,7 @@ section h2 {
 
 .sponsors img {
     width: 100%;
-    max-width: 300px; /* Limit the image size */
+    max-width: 600px; /* Limit the image size */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
