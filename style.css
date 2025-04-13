@@ -10,25 +10,25 @@ body {
 header {
     background: #4CAF50;
     color: white;
-    padding: 30px 0;
+    padding: 30px 20px;
     text-align: center;
     animation: fadeIn 1.5s ease-in-out;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     position: sticky;
     top: 0;
     background: rgba(0, 0, 0, 0.8);
@@ -41,10 +41,11 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -64,6 +65,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding: 20px;
     animation: slideIn 1.5s ease-in-out;
 }
 
@@ -95,7 +97,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
+    padding: 20px;
     animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -179,5 +181,34 @@ footer {
     to {
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .achievement-card {
+        width: 100%;
+        height: 180px;
+    }
+
+    .event-card {
+        max-width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
     }
 }
