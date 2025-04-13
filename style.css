@@ -171,11 +171,6 @@ footer {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.sponsors img:hover {
-    transform: scale(1.05); /* Slightly enlarge the image on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow */
-}
-
 footer {
     background: #333;
     color: white;
