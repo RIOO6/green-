@@ -64,7 +64,37 @@ nav ul li a {
     text-align: center;
     color: white;
 }
+/* About Us Section */
+#about {
+    padding: 40px 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: center;
+    background: linear-gradient(135deg, #4CAF50, #81C784); /* Gradient background */
+    color: white; /* White text for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
 
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff; /* Ensure the heading is visible on the gradient */
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for better readability */
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify; /* Justify the text for a cleaner look */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for readability */
+}
+
+#about strong {
+    color: #FFD700; /* Highlight important text in gold */
+    font-weight: bold;
+}
 section {
     padding: 40px 20px;
     margin: 20px auto;
@@ -105,6 +135,9 @@ section h2 {
     transition: filter 0.3s ease, transform 0.3s ease;
     overflow: hidden;
     position: relative; /* Required for text background */
+}
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling for anchor links */
 }
 
 .achievement-card::after {
